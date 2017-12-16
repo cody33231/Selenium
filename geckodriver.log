@@ -1,0 +1,51 @@
+1513308568479	geckodriver	INFO	geckodriver 0.19.1
+1513308568495	geckodriver	INFO	Listening on 127.0.0.1:60788
+1513308569072	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.wpJX3JCqz7EN"
+1513308571801	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1513308581478	Marionette	INFO	Listening on port 60793
+1513308581755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513308581874	Marionette	DEBUG	Register listener.js for window 4294967297
+1513308582435	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513308583457	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513308583457	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1513308584896	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1513308585356	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Se&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=2&pwd=S&cb=jQuery110207131345377832766_1513308584351&_=1513308584354, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Selen&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=5&pwd=Sele&cb=jQuery110207131345377832766_1513308584351&_=1513308584357, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Sele&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=4&pwd=Sel&cb=jQuery110207131345377832766_1513308584351&_=1513308584356, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Sel&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=3&pwd=Se&cb=jQuery110207131345377832766_1513308584351&_=1513308584355, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Selenium&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=8&pwd=Seleniu&cb=jQuery110207131345377832766_1513308584351&_=1513308584360, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Selenium2&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=9&pwd=Selenium&cb=jQuery110207131345377832766_1513308584351&_=1513308584361, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Seleni&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=6&pwd=Selen&cb=jQuery110207131345377832766_1513308584351&_=1513308584358, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Seleniu&json=1&p=3&sid=25245_1460_24885_13290_21080_25178_22072&req=2&csor=7&pwd=Seleni&cb=jQuery110207131345377832766_1513308584351&_=1513308584359, line 1: TypeError: jQuery110207131345377832766_1513308584351 is not a function
+1513308586318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15028, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1513386862542	geckodriver	INFO	geckodriver 0.19.1
+1513386862567	geckodriver	INFO	Listening on 127.0.0.1:50686
+1513386863099	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.H2k3jR2NOUG4"
+1513387165325	geckodriver	INFO	geckodriver 0.19.1
+1513387165335	geckodriver	INFO	Listening on 127.0.0.1:50849
+1513387165918	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.znz2EV1GihD3"
+1513387166891	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1513387169597	Marionette	INFO	Listening on port 50853
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://onboarding/onboarding.js, line 18: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIStringBundle.GetStringFromName]
+1513387169747	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513387169813	Marionette	DEBUG	Register listener.js for window 4294967297
+1513387169836	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513387171368	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513387171369	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513387173131	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.python.org/"
+1513387174991	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.python.org/"
+[GFX1-]: 
