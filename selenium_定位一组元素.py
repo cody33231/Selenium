@@ -6,24 +6,25 @@
 # @File    : selenium_定位一组元素.py
 # @Software: PyCharm
 
+#TODO:关于一组元素定位的点
+
 from selenium import webdriver
-import time
+from time import sleep
 import os
 
-dr = webdriver.Chrome()
+driver = webdriver.Chrome()
+driver.get("http://www.baidu.com")
 
-file_path = 'file:///' + os.path.abspath('checkbox.html')
-dr.get(file_path)
+driver.find_element_by_id('kw').send_keys('selenium')
+driver.find_element_by_id('su').click()
+sleep(1)
 
-inputs = dr.find_elements_by_tag_name('input')
+#定位一组元素
+texts = driver.find_elements_by_xpath('//div/h3/a')
 
-for x in inputs:
-    if x.__getattribute__('type') == 'checkbox':
-        x.click()
+#循环遍历出每一条搜索结果的标题
+for x in texts:
+    print(x.text)
 
-
-time.sleep(20)
-dr.quit()
-
-
+driver.quit()
 
