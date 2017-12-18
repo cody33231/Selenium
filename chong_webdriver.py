@@ -5,6 +5,7 @@
 # @Site    : 
 # @File    : chong_webdriver.py
 
+# TODO(cody):"selenium3的例子"
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -18,8 +19,13 @@ browser.get(url)
 
 browser.maximize_window()
 browser.find_element_by_id("kw").send_keys("chenchuan")
-emil = browser.find_element_by_id("kw")
-emil.send_keys(Keys, RETURN)
+sleep(3)
+browser.find_element_by_id("kw").send_keys(Keys.CONTROL,'a')
+sleep(3)
+browser.find_element_by_id("kw").send_keys(Keys.CONTROL,'x')
+
+browser.find_element_by_id('kw').send_keys(Keys.CONTROL,'v')
+browser.find_element_by_id("kw").submit()
 
 sleep(3)
 browser.find_element_by_id("kw").clear()
