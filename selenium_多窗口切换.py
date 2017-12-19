@@ -22,17 +22,23 @@ driver.find_element_by_link_text('立即注册').click()
 
 #获得当前所有打开的窗口的句柄
 #window_handles返回所有窗口的句柄到当前会话
-all_hanle = driver.window_handles
+
+all_handles = driver.window_handles
 
 #进入注册窗口
 
-for hanle in all_hanle:
-    if hanle != sreach_windows:
+for handle in all_handles:
+    if handle != sreach_windows:
         #switch_to用于切换到相应的窗口
-        driver.switch_to.window(hanle)
+        driver.switch_to.window(handle)
         print('now register windows1')
-        driver.find_element_by_name('userName').send_keys('username')
-        driver.find_element_by_name('password').send_keys('password')
+        #driver.find_element_by_id('TANGRAM__PSP_3__userName').send_keys('username')
+        #driver.find_element_by_id('TANGRAM__PSP_3__password').send_keys('password')
         time.sleep(2)
 
+driver.find_element_by_id('TANGRAM__PSP_3__userName').send_keys('username')
+driver.find_element_by_id('TANGRAM__PSP_3__password').send_keys('password')
+title2 = driver.title
+print(title2)
+time.sleep(2)
 driver.quit()
