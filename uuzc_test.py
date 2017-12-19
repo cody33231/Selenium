@@ -18,7 +18,7 @@ browser.maximize_window()
 #点击立即申请补贴
 browser.find_element_by_xpath('//*[@id="divbg"]/div/a/div').click()
 def from1(num, mobile):
-    '''第一个表单输入的账号和密码提交'''
+    '''第一个表单输入的账号和密码并提交'''
     # 输入姓名
     browser.find_element_by_id('name1').send_keys(num)
     # 输入手机号
